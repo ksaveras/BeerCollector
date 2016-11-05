@@ -20,7 +20,7 @@ class ApplicationCommand extends Command
      */
     protected function configure()
     {
-        $this->setName('beer_collector')
+        $this->setName('console')
             ->setDescription('Finds path to breweries for collecting unique beers for my party.')
             ->addOption('lat', null, InputOption::VALUE_REQUIRED, 'Start point latitude value')
             ->addOption('lon', null, InputOption::VALUE_REQUIRED, 'Start point longitude value')
@@ -53,7 +53,7 @@ If You have time - You can try bruteforce option. This option generates all poss
 distance) and calculates number of beers could be collected. Maximum number of beers returns best route.
 
 Example usage:
-  beer_collector --lat=54.6858453 --lon=25.2865201
+  bin/console --lat=54.6858453 --lon=25.2865201
 EOT
             );
     }

@@ -36,7 +36,7 @@ class Application extends BaseApplication
      */
     protected function getCommandName(InputInterface $input)
     {
-        return 'beer_collector';
+        return 'console';
     }
 
     /**
