@@ -1,0 +1,22 @@
+{
+    "name": "ksaveras/beer-collector",
+    "description": "TSP solver for collecting beers",
+    "minimum-stability": "RC",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ksaveras Sakys",
+            "email": "xawiers@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BeerCollector\\": "src/"
+        }
+    },
+    "require": {
+        "clue/graph": "^0.9",
+        "creof/geo-parser": "^2.1",
+        "symfony/console": "^3.1"
+    }
+}
