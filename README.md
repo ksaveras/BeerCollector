@@ -29,6 +29,6 @@ Kur LAT ir LON - ilguma ir platuma
 
 Visas programos aprašas ir pagalba pateikiama iškvietus programą su --help parametru:
 ```
-bin/console --help`
+bin/console --help
 ```
 Dumps kataloge yra atsisiųsti csv failai ir papildyti keliomis alaus daryklų koordinatėmis.
